@@ -180,8 +180,7 @@ def bridge_from_sepolia_to_scroll(private_key, log):
                 'from': address_wallet,
                 'value': value,
                 'nonce': web3.eth.get_transaction_count(address_wallet),
-                'maxFeePerGas': web3.eth.gas_price,
-                'maxPriorityFeePerGas': Web3.to_wei(0.1, 'gwei')
+                'gasPrice': web3.eth.gas_price,
             }
         )
         signed_txn = web3.eth.account.sign_transaction(contract_txn, private_key=private_key)
