@@ -14,4 +14,4 @@
 
 Чат, где можно задать вопрос по коду — https://t.me/pythondao
 
-Привтные софты - https://t.me/svalkadao_bot
+Приватные софты - https://t.me/svalkadao_bot
