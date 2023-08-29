@@ -62,7 +62,7 @@ if __name__ == '__main__':
             time.sleep(random.uniform(time_delay_min, time_delay_max))
 
             log.info('Uniswap\n')
-
+            number_of_repetitions = random.randint(number_of_repetitions_min, number_of_repetitions_max)
             for i in range(number_of_repetitions):
                 log.info(f'Круг - {i+1}\n')
 
